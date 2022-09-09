@@ -2,14 +2,23 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Weather </title>
+    <title>Weather🌦</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="public/css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <h1> Find Out The Weather Forecast </h1>
-    <form action="/" method="post">
-      <label for="cityInput"> City Name: </label>
-      <input id="cityInput" type="text" name="cityName" />
-      <button type="submit"> Go </button>
-    </form>
+    <div class="parent-container">
+      <div class="child-one">
+        <h2>Find The Latest Weather Forecast</br> <small class="text-muted"> by searching your city</small></h2>
+      </div>
+      <div class="child-two">
+        <form action="/" method="post">
+          <label class="form-control-lg" for="cityInput"> City Name: </label>
+          <input class="form-control-lg" id="cityInput" type="text" name="cityName" />
+          <button class="btn btn-light btn-sm type="submit"> Go </button>
+        </form>
+      </div>
+
+    </div>
   </body>
 </html>
