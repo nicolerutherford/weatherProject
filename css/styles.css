@@ -4,8 +4,7 @@ body {margin: 20px;
   background-position: center;
   background-color: #ADD8E6;
   background-repeat: repeat-x;
-  color:
-   #FF5349;
+  color:#FF5349;
 
 }
 
@@ -34,4 +33,11 @@ label {
 
 .child-two {
     min-height: 100px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
